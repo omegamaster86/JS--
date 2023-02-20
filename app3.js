@@ -7,7 +7,6 @@ for (const todo of tasks) {
 
 const newTask = prompt("タスク入力して下さい");
 tasks.push('3 : ' + newTask);
-//let task = tasks.push(newtask); こっちでも大丈夫
 
 if (newTask !== null) {
     alert("新しいタスクを追加しました。");
