@@ -7,3 +7,4 @@ for (i = 1; i <= 99; i++){
         console.log('Buzz' + i);
     }
 }
+
