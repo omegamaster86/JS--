@@ -21,7 +21,7 @@ function fn () {
 if (newTask1 !== null) {
     const newTask2 = prompt("ジャンルを入力してください");
     const newTask = {content:'3 :[内容]'+ newTask1,genre:'[ジャンル]' + newTask2}
-    
+
     tasks.push(newTask);
 }}
 fn();
