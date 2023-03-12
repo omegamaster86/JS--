@@ -12,7 +12,7 @@ for (let i = 0; i < tasks.length; i++) {
 }
 
 function fn() {
-  if (task !== null) {
+  if (task !== "") {
     const genre = prompt("ジャンルを入力してください");
     const newTask = { content: task, genre: genre };
     tasks.push(newTask);
@@ -20,7 +20,7 @@ function fn() {
 }
 fn();
 
-if (task !== null) {
+if (task !== "") {
   alert("新しいタスクを追加しました。");
 }
 
@@ -31,6 +31,6 @@ for (let i = 0; i < tasks.length; i++) {
   console.log(`${i}:[内容]${tasks[i].content},[ジャンル]${tasks[i].genre}`);
 }
 
-if (task !== null) {
+if (task !== "") {
   alert("「確認、追加、削除、終了」の４つのいずれかを入力してください。");
 }
